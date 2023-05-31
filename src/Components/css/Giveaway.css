@@ -1,0 +1,72 @@
+/* fonts */
+
+@font-face {
+    font-family: Louis George Cafe;
+    src: url('../fonts/louis_george_caf/Louis\ George\ Cafe.ttf');
+}
+
+@font-face {
+    font-family: Monofil;
+    src: url('../fonts/monofil/MonofilDemoRegular.ttf');
+}
+
+/* code */
+
+* {
+    margin: 0;
+    font-family: Louis George Cafe;
+}
+
+.Giveaway {
+    height: 100vh;
+}
+
+.positioned {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.positioned img {
+    width: 600px;
+}
+
+.giveaway-button {
+    margin-top: 25px;
+    padding: 13px 0px;
+    background-color: white;
+    border: 1px solid #f66d02;
+    cursor: pointer;
+    position: absolute;
+    top: 75%;
+}
+
+.giveaway-button a {
+    padding: 13px 30px;
+    text-decoration: none;
+    color: #f66d02;
+    font-size: 16px;
+}
+
+.giveaway-button:hover {
+    transition: 0.6s;
+    border: 1px solid white;
+    background-color: #f66d02;
+}
+
+.giveaway-button a:hover {
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .positioned img {
+        width: 300px;
+    }
+
+    .giveaway-button {
+        top: 65%;
+    }
+}

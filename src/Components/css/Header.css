@@ -1,0 +1,39 @@
+/* fonts */
+@font-face {
+    font-family: Louis George Cafe;
+    src: url('../fonts/louis_george_caf/Louis\ George\ Cafe.ttf');
+}
+
+/* code */
+
+*{
+    margin: 0 auto;
+}
+
+.Header{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Louis George Cafe;
+}
+
+.logo img{
+    padding: 10px 0px;
+    width: 60px;
+}
+
+.links a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.links a:hover{
+    opacity: 70%;
+    transition: 0.6s;
+}
