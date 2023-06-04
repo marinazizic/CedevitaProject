@@ -1,0 +1,64 @@
+/* fonts */
+
+@font-face {
+    font-family: Monofil;
+    src: url('../fonts/monofil/MonofilDemoRegular.ttf');
+}
+
+/* code */
+
+.Newsletter {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../imgs/newsletter.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.textNews {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    text-align: left;
+}
+
+form {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    margin: 5px;
+    width: 100%;
+    padding: 10px 25px;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+form input:focus {
+    transition: 0.6s;
+    border: 1px solid #f66d02;
+}
+
+form button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 15px 25px;
+    background-color: white;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: #f66d02;
+}
+
+form button:hover {
+    transition: 0.6s;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}

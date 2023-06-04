@@ -1,0 +1,12 @@
+.Limun img,
+.Naranca img,
+.Bazga img {
+    width: 200px;
+    height: 450px;
+    margin-top: -15px;
+}
+
+.text {
+    color: white;
+    margin-top: 15px;
+}
