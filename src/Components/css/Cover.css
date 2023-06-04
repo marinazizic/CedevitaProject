@@ -1,21 +1,11 @@
 /* fonts */
 
 @font-face {
-    font-family: Louis George Cafe;
-    src: url('../fonts/louis_george_caf/Louis\ George\ Cafe.ttf');
-}
-
-@font-face {
     font-family: Monofil;
     src: url('../fonts/monofil/MonofilDemoRegular.ttf');
 }
 
 /* code */
-
-* {
-    margin: 0;
-    font-family: Louis George Cafe;
-}
 
 .Cover {
     position: relative;
@@ -46,7 +36,6 @@ p {
 
 .cover-button a {
     padding: 13px 30px;
-    text-decoration: none;
     color: #f66d02;
     font-size: 16px;
 }
@@ -61,7 +50,7 @@ p {
     color: white;
 }
 
-.LimunImg {
+.BazgaImg {
     z-index: -1;
     width: 300px;
     height: 400px;
@@ -71,16 +60,10 @@ p {
 }
 
 .white-heading {
-    font-family: Monofil;
-    font-size: 60px;
     color: white;
 }
 
 @media only screen and (max-width: 800px) {
-
-    .white-heading {
-        font-size: 45px;
-    }
 
     p {
         font-size: 16px;
@@ -90,7 +73,7 @@ p {
         font-size: 14px;
     }
 
-    .LimunImg {
+    .BazgaImg {
         width: 250px;
         height: 350px;
         top: 40%;
@@ -112,7 +95,7 @@ p {
         font-size: 12px;
     }
 
-    .LimunImg {
+    .BazgaImg {
         width: 150px;
         height: 200px;
         top: 45%;
@@ -123,7 +106,7 @@ p {
 
 @media only screen and (max-width: 350px) {
 
-    .LimunImg {
+    .BazgaImg {
         width: 150px;
         height: 200px;
         top: 45%;
