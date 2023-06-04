@@ -1,12 +1,11 @@
 import './css/Giveaway.css';
-import Fico from './imgs/giveaway.png';
+import Fico from './imgs/background.jpg';
 
 function Giveaway() {
     return (
-        <div className="Giveaway">
+        <div className="Giveaway" id='giveaway'>
             <div className='positioned'>
                 <img src={Fico}></img>
-                <button className='giveaway-button'><a href="#">Saznaj više</a></button>
             </div>
 
         </div>

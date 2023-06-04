@@ -11,10 +11,9 @@ function Header() {
             </div>
             <div className='links'>
                 <Link to="/">Home</Link>
-                {/* <Link to="/Products">Products</Link> */}
-                <a href="">aaa</a>
-                <a href="">bbb</a>
-                <a href="">ccc</a>
+                <a href="#about">O nama</a>
+                <a href="#proizvodi">Proizvodi</a>
+                <a href="#newsletter">Newsletter</a>
             </div>
         </div>
     );

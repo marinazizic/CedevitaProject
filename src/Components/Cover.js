@@ -1,5 +1,5 @@
 import './css/Cover.css';
-import LimunLik from './imgs/limun-lik.png';
+import BazgaLik from './imgs/bazga-lik.png';
 
 function Cover() {
     return (
@@ -7,9 +7,9 @@ function Cover() {
             <div className='headings'>
                 <h1 className='white-heading'>Cedevita <span>-</span> Budi CE</h1>
                 <p>Pozitivna energija kreće od svakog od nas, a mi je širimo već 50 godina.</p>
-                <button className='cover-button'><a href="#aboutus">Saznaj više</a></button>
+                <button className='cover-button'><a href="#about">Saznaj više</a></button>
             </div>
-            <img src={LimunLik} className='LimunImg'></img>
+            <img src={BazgaLik} className='BazgaImg'></img>
         </div>
     );
 }
