@@ -1,8 +1,45 @@
 *{
     margin: 0;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: Louis George Cafe;
+    src: url('./Components/fonts/louis_george_caf/Louis\ George\ Cafe.ttf');
+}
+
+@font-face {
+    font-family: Monofil;
+    src: url('./Components/fonts/monofil/MonofilDemoRegular.ttf');
+}
+
+/* code */
+
+* {
+    margin: 0;
+    font-family: Louis George Cafe;
+}
+
+::selection{
+    color: white;
+    background-color: #f66d02;
 }
 
 body{
     min-height: 100vh;
     width: 100%;
+}
+
+h1{
+    font-size: 60px;
+    font-family: Monofil;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+    h1{
+        font-size: 45px;
+    }
 }
