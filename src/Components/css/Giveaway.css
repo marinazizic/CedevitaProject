@@ -26,3 +26,9 @@
     z-index: -1;
     object-fit: cover;
 }
+
+@media only screen and (max-width: 500px){
+    .Giveaway{
+        display: none;
+    }
+}

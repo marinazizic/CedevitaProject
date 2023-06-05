@@ -1,7 +1,3 @@
-*{
-    margin: 0;
-    scroll-behavior: smooth;
-}
 @font-face {
     font-family: Louis George Cafe;
     src: url('./Components/fonts/louis_george_caf/Louis\ George\ Cafe.ttf');
@@ -16,30 +12,36 @@
 
 * {
     margin: 0;
-    font-family: Louis George Cafe;
+    font-family: Louis George Cafe, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
 }
 
-::selection{
+::-webkit-scrollbar {
+   display: none;
+}
+
+::selection {
     color: white;
     background-color: #f66d02;
 }
 
-body{
+body {
     min-height: 100vh;
     width: 100%;
+    background-color: white;
 }
 
-h1{
+h1 {
     font-size: 60px;
     font-family: Monofil;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
 @media only screen and (max-width: 800px) {
-    h1{
+    h1 {
         font-size: 45px;
     }
 }

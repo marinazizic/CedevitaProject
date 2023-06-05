@@ -42,6 +42,10 @@
     z-index: -1;
     background-image: linear-gradient(270deg, #fba606, #f66d02);
     height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .Limun {
@@ -52,6 +56,10 @@
     z-index: -1;
     background-image: linear-gradient(270deg, #f7fb06, #ffb62d);
     height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .Bazga {
@@ -61,6 +69,10 @@
     position: relative;
     z-index: -1;
     height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-image: linear-gradient(270deg, #059eb9, #06d6fb);
  }
 
