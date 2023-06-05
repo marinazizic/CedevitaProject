@@ -1,12 +1,10 @@
 import './css/CedevitaProducts.css';
 import BazgaImg from './imgs/bazga.png';
-import LimunImg from './imgs/limun.png';
-import NarancaImg from './imgs/naranca.png';
 
 function Bazga({BazgaProizvod}) {
     return (
         <div className="Bazga">
-            <img src={BazgaImg}></img>
+            <img src={BazgaImg} alt="Cedevita od bazge"></img>
             <div class="text">
                 <p>Okus: {BazgaProizvod.okus}</p>
                 <p>Kalorije: {BazgaProizvod.kalorije}</p>

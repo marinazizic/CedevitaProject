@@ -13,16 +13,16 @@ function Footer() {
             <hr />
             <div className='footerGrid'>
                 <div className='socials'>
-                    <img src={LogoF}></img>
+                    <img src={LogoF} alt="Logo"></img>
                     <div className='medias'>
                         <a href="https://instagram.com">
-                            <img src={Instagram}></img>
+                            <img src={Instagram} alt="Instagram"></img>
                         </a>
                         <a href="https://facebook.com">
-                            <img src={Facebook}></img>
+                            <img src={Facebook} alt="Facebook"></img>
                         </a>
                         <a href="https://youtube.com">
-                            <img src={YouTube}></img>
+                            <img src={YouTube} alt="YouTube"></img>
                         </a>
                     </div>
                     <button>Kontaktiraj nas</button>
@@ -43,6 +43,7 @@ function Footer() {
                 </div>
                 <div className='us'>
                     <p>Naš cilj je stvoriti proizvode koji nadmašuju očekivanja, inspiriraju ljude i pružaju trenutke užitka u svakoj čaši. Cedevita je više od samo napitka - ona je stil života, izvor energije i pouzdan partner za sve one koji žele osvježiti svoje tijelo i duh.</p>
+                    <p>Copyright - sva prava pridržana 2023.</p>
                 </div>
             </div>
         </div>

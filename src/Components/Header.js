@@ -7,13 +7,13 @@ function Header() {
     return (
         <div className="Header">
             <div className='logo'>
-                <img src={Logo}></img>
+                <img src={Logo} alt="Logo"></img>
             </div>
             <div className='links'>
-                <Link to="/">Home</Link>
+                <Link to="/">Početna</Link>
                 <a href="#about">O nama</a>
                 <a href="#proizvodi">Proizvodi</a>
-                <a href="#newsletter">Newsletter</a>
+                <p>Marina Žižić g2P</p>
             </div>
         </div>
     );

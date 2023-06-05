@@ -5,7 +5,7 @@ function Giveaway() {
     return (
         <div className="Giveaway" id='giveaway'>
             <div className='positioned'>
-                <img src={Fico}></img>
+                <img src={Fico} alt="Giveaway"></img>
             </div>
 
         </div>

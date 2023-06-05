@@ -1,12 +1,10 @@
 import './css/CedevitaProducts.css';
-import BazgaImg from './imgs/bazga.png';
 import NarancaImg from './imgs/naranca.png';
-import LimunImg from './imgs/limun.png';
 
 function Naranca({ NarancaProizvod }) {
     return (
         <div className="Naranca">
-            <img src={NarancaImg}></img>
+            <img src={NarancaImg} alt="Cedevita od naranče"></img>
             <div class="text">
                 <p>Okus: {NarancaProizvod.okus}</p>
                 <p>Kalorije: {NarancaProizvod.kalorije}</p>

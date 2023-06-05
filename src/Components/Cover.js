@@ -9,7 +9,7 @@ function Cover() {
                 <p>Pozitivna energija kreće od svakog od nas, a mi je širimo već 50 godina.</p>
                 <button className='cover-button'><a href="#about">Saznaj više</a></button>
             </div>
-            <img src={BazgaLik} className='BazgaImg'></img>
+            <img src={BazgaLik} className='BazgaImg' alt="Bazga lik"></img>
         </div>
     );
 }
