@@ -40,6 +40,11 @@ a {
     text-decoration: none;
 }
 
+a:hover{
+    opacity: 70%;
+    transition: 0.7s;
+}
+
 @media only screen and (max-width: 800px) {
     h1 {
         font-size: 45px;

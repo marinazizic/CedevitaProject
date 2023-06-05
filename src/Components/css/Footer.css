@@ -89,7 +89,6 @@ hr {
     color: transparent;
 }
 
-.medias a:hover,
 .about li:hover {
     opacity: 70%;
     transition: 0.7s;
