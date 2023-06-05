@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './css/Newsletter.css';
-import NewsletterImg from './imgs/newsletter.jpg';
-
 class Newsletter extends Component {
     constructor() {
         super();
@@ -16,8 +14,6 @@ class Newsletter extends Component {
 
     render() {
         const { inputValue } = this.state;
-        const image = './imgs/newsletter.jpg';
-
         return (
             <div className='Newsletter' id='newsletter'>
                 <div className='textNews'>

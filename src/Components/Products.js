@@ -2,9 +2,6 @@ import './css/Products.css';
 import Naranca from './Naranca.js';
 import Limun from './Limun.js';
 import Bazga from './Bazga.js';
-import BazgaImg from './imgs/bazga.png';
-import LimunImg from './imgs/limun.png';
-import NarancaImg from './imgs/naranca.png';
 
 function Products() {
     return (
