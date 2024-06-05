@@ -1,6 +1,6 @@
 import './css/Aboutus.css';
 import JuiceImg from './imgs/bg-img.jpg';
-
+//test
 function Aboutus() {
     return (
         <div className="Aboutus" id="about">
