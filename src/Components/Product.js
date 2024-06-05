@@ -1,7 +1,7 @@
 import Limun from "./Limun.js";
 import Bazga from "./Bazga.js";
 import Naranca from "./Naranca.js";
-import "./css/Products.css";
+import "./css/Product.css";
 
 function Product() {
   let NarancaObj = {
@@ -28,7 +28,7 @@ function Product() {
   return (
     <div className="Products" id="proizvodi">
       <div className="CedevitaaProducts">
-        <a href="#" class="okusi">
+        <a href="./NarancaPg.js" class="okusi">
           <Naranca NarancaProizvod={NarancaObj}></Naranca>
         </a>
         <a href="#" class="okusi">
