@@ -12,12 +12,12 @@ function App() {
         <Router>
           <Header />
           <Routes>
-            <Route path='/' element={<Homepage />} />
+            <Route path="/" element={<Homepage />} />
           </Routes>
           <Footer />
         </Router>
       </div>
-    </div >
+    </div>
   );
 }
 
