@@ -28,9 +28,15 @@ function Product() {
   return (
     <div className="Products" id="proizvodi">
       <div className="CedevitaaProducts">
-        <Naranca NarancaProizvod={NarancaObj}></Naranca>
-        <Limun LimunProizvod={LimunObj}></Limun>
-        <Bazga BazgaProizvod={BazgaObj}></Bazga>
+        <a href="#" class="okusi">
+          <Naranca NarancaProizvod={NarancaObj}></Naranca>
+        </a>
+        <a href="#" class="okusi">
+          <Limun LimunProizvod={LimunObj}></Limun>
+        </a>
+        <a href="#" class="okusi">
+          <Bazga BazgaProizvod={BazgaObj}></Bazga>
+        </a>
       </div>
     </div>
   );
