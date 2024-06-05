@@ -9,8 +9,8 @@ function Homepage() {
   return (
     <div className="Homepage">
       <Cover></Cover>
-      <Aboutus></Aboutus>
       <FindMore></FindMore>
+      <Aboutus></Aboutus>
       <Product></Product>
       <Newsletter></Newsletter>
     </div>
