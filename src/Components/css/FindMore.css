@@ -1,0 +1,34 @@
+/* fonts */
+
+@font-face {
+    font-family: Monofil;
+    src: url('../fonts/monofil/MonofilDemoRegular.ttf');
+}
+
+/* code */
+
+.Giveaway {
+    height: 100vh;
+}
+
+.positioned {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.positioned img {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 500px){
+    .Giveaway{
+        display: none;
+    }
+}
