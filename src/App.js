@@ -6,6 +6,7 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import NarancaPg from "./Components/NarancaPg";
 import LimunPg from "./Components/LimunPg";
+import BazgaPg from "./Components/BazgaPg";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route exact path="/" element={<Homepage />} />
             <Route path="/NarancaPg" element={<NarancaPg />} />
             <Route path="/LimunPg" element={<LimunPg />} />
+            <Route path="/BazgaPg" element={<BazgaPg />} />
           </Routes>
           <Footer />
         </Router>

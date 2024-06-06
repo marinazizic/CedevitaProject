@@ -34,7 +34,7 @@ function Product() {
         <a href="/LimunPg" class="okusi">
           <Limun LimunProizvod={LimunObj}></Limun>
         </a>
-        <a href="#" class="okusi">
+        <a href="/BazgaPg" class="okusi">
           <Bazga BazgaProizvod={BazgaObj}></Bazga>
         </a>
       </div>
