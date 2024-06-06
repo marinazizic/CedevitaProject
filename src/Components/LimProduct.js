@@ -1,8 +1,8 @@
-import "./css/NarProduct.css";
-import Naranca from "./imgs/naranca.png";
+import "./css/LimProduct.css";
+import Limun from "./imgs/limun.png";
 import React, { useState, useEffect } from "react";
 
-function NarProduct() {
+function LimProduct() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [review, setReview] = useState("");
@@ -24,21 +24,20 @@ function NarProduct() {
     }
   };
   return (
-    <div className="NarProduct">
+    <div className="LimProduct">
       <div className="product">
-        <div className="imgced">
-          <img src={Naranca} alt="" />
+        <div className="imglim">
+          <img src={Limun} alt="" />
         </div>
         <div className="cont">
           <div className="txt">
             <h2 className="captions">Okus</h2>
-            <h1>Naranča</h1>
+            <h1>Limun</h1>
             <p>Dostupna u 500g, 1kg, 2kg</p>
             <p id="para">
-              Već generacijama najpoznatiji, najtraženiji i omiljeni izvor
-              vitamina s prirodnom aromom naranče, toliko popularan da je upravo
-              zbog njega Cedevitin zaštitni znak narančaste boje. Svi će se
-              složiti: Cedevita naranča je the Cedevita!
+              Dobro poznata kiselo - slatka kombinacija okusa Cedevite limun
+              odličan je izbor, ali i sjajan, pouzdan izvor vitamina na koji se
+              možete osloniti tijekom cijele godine.
             </p>
             <a href="#recenzije" id="napisi">
               Recenziraj
@@ -98,4 +97,4 @@ function NarProduct() {
   );
 }
 
-export default NarProduct;
+export default LimProduct;

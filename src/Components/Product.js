@@ -31,7 +31,7 @@ function Product() {
         <a href="/NarancaPg" class="okusi">
           <Naranca NarancaProizvod={NarancaObj}></Naranca>
         </a>
-        <a href="#" class="okusi">
+        <a href="/LimunPg" class="okusi">
           <Limun LimunProizvod={LimunObj}></Limun>
         </a>
         <a href="#" class="okusi">
