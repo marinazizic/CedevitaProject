@@ -127,6 +127,21 @@
   margin-left: -35px;
 }
 
+.prikazrec ul li {
+  display: block;
+  height: 160px;
+  width: 200px;
+  padding: 10px;
+  margin-left: -20px;
+  border: 1px solid #f66d02;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.prikazrec ul li .review {
+  word-wrap: break-word;
+}
+
 #username {
   color: #f66d02;
   font-family: Monofil;
@@ -173,5 +188,16 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+  .prikazrec li {
+    margin: 0;
+  }
+
+  .prikazrec ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
