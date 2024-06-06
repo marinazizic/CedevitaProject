@@ -15,6 +15,12 @@
   grid-template-rows: 100vh;
 }
 
+#context {
+  color: #f66d02;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .imgbaz {
   grid-area: 1 / 1 / 1 / 2;
   display: flex;

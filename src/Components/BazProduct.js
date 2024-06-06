@@ -1,12 +1,14 @@
 import "./css/BazProduct.css";
+import { SugarContext } from "../Context/SugarContext";
 import Bazga from "./imgs/bazga.png";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 
 function BazProduct() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [review, setReview] = useState("");
   const [reviews, setReviews] = useState([]);
+  const { hasSugar, toggleSugar } = useContext(SugarContext);
 
   useEffect(() => {
     console.log("Ažurirane recenzije:", reviews);
@@ -33,6 +35,9 @@ function BazProduct() {
           <div className="txt">
             <h2 className="captions">Okus</h2>
             <h1>Bazga</h1>
+            <div onClick={() => toggleSugar()} id="context">
+              {hasSugar ? "Bez sladila" : "Sa sladilima"}
+            </div>
             <p>Dostupna u 500g, 1kg</p>
             <p id="para">
               Blag i slatkast okus bazge, tako poznat iz sunčanih dana našeg

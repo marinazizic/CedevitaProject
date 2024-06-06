@@ -110,6 +110,12 @@
   border: 1px solid #f66d02;
 }
 
+#context {
+  color: #f66d02;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 #forma input:focus,
 #forma textarea:focus {
   transition: 0.7s;

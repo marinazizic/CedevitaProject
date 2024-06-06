@@ -1,12 +1,14 @@
 import "./css/NarProduct.css";
+import { SugarContext } from "../Context/SugarContext";
 import Naranca from "./imgs/naranca.png";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 
 function NarProduct() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [review, setReview] = useState("");
   const [reviews, setReviews] = useState([]);
+  const { hasSugar, toggleSugar } = useContext(SugarContext);
 
   useEffect(() => {
     console.log("Ažurirane recenzije:", reviews);
@@ -33,6 +35,9 @@ function NarProduct() {
           <div className="txt">
             <h2 className="captions">Okus</h2>
             <h1>Naranča</h1>
+            <div onClick={() => toggleSugar()} id="context">
+              {hasSugar ? "Bez sladila" : "Sa sladilima"}
+            </div>
             <p>Dostupna u 500g, 1kg, 2kg</p>
             <p id="para">
               Već generacijama najpoznatiji, najtraženiji i omiljeni izvor

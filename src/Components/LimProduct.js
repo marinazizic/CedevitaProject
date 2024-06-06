@@ -1,12 +1,14 @@
 import "./css/LimProduct.css";
+import { SugarContext } from "../Context/SugarContext";
 import Limun from "./imgs/limun.png";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 
 function LimProduct() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [review, setReview] = useState("");
   const [reviews, setReviews] = useState([]);
+  const { hasSugar, toggleSugar } = useContext(SugarContext);
 
   useEffect(() => {
     console.log("Ažurirane recenzije:", reviews);
@@ -33,6 +35,9 @@ function LimProduct() {
           <div className="txt">
             <h2 className="captions">Okus</h2>
             <h1>Limun</h1>
+            <div onClick={() => toggleSugar()} id="context">
+              {hasSugar ? "Bez sladila" : "Sa sladilima"}
+            </div>
             <p>Dostupna u 500g, 1kg, 2kg</p>
             <p id="para">
               Dobro poznata kiselo - slatka kombinacija okusa Cedevite limun
