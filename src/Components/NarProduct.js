@@ -92,8 +92,10 @@ function NarProduct() {
           <ul>
             {reviews.map((review, index) => (
               <li key={index}>
-                <strong id="username">{review.name}</strong> ({review.email}):{" "}
-                {review.review}
+                <strong id="username">{review.name}</strong> <br />
+                <span className="review">
+                  ({review.email}): {review.review}
+                </span>
               </li>
             ))}
           </ul>
