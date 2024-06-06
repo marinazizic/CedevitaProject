@@ -1,0 +1,177 @@
+.product {
+  margin-top: 100px;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 100vh;
+}
+
+#recenzije {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 100vh;
+}
+
+#context {
+  color: #f66d02;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.imgbaz {
+  grid-area: 1 / 1 / 1 / 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#forma {
+  grid-area: 1 / 1 / 1 / 2;
+  width: 100%;
+  height: 100%;
+  margin: 50px;
+}
+
+.imgbaz img {
+  width: 70%;
+}
+
+.cont {
+  width: 100%;
+  height: 100vh;
+  grid-area: 1 / 2 / 1 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.prikazrec {
+  width: 100%;
+  height: 100vh;
+  grid-area: 1 / 2 / 1 / 3;
+  margin: 50px 0px 0px 0px;
+}
+
+.upiti div {
+  width: 100%;
+}
+.upiti input,
+.upiti textarea {
+  width: 60%;
+}
+
+.upiti {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.txt {
+  width: 40%;
+}
+.cont .captions {
+  text-transform: uppercase;
+  letter-spacing: 0.1cm;
+  font-size: 13px;
+  color: #f66d02;
+  margin: 0;
+}
+
+#para {
+  margin-bottom: 30px;
+}
+
+#napisi,
+#posalji {
+  padding: 13px 30px;
+  background-color: white;
+  border: 1px solid #f66d02;
+  color: #f66d02;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#napisi:hover,
+#posalji:hover {
+  transition: 0.6s;
+  border: 1px solid white;
+  background-color: #f66d02;
+  color: white;
+}
+
+#recenzije {
+  height: 100vh;
+}
+
+#forma input,
+#forma textarea {
+  margin: 5px;
+  padding: 10px 25px;
+  outline: none;
+  border: 1px solid #f66d02;
+}
+
+#forma input:focus,
+#forma textarea:focus {
+  transition: 0.7s;
+  border: 1px solid #a54d09;
+}
+
+.prikazrec ul {
+  list-style-type: none;
+  margin-left: -35px;
+}
+
+#username {
+  color: #f66d02;
+  font-family: Monofil;
+  font-size: 17px;
+}
+@media only screen and (max-width: 500px) {
+  .product {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100vh 100vh;
+  }
+
+  .imgbaz {
+    grid-area: 1 / 1 / 2 / 1;
+    padding: 0px 70px;
+  }
+
+  .cont {
+    grid-area: 2 / 1 / 3 / 1;
+  }
+
+  #recenzije {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100vh 100vh;
+    height: 100%;
+  }
+  .upiti {
+    width: auto;
+  }
+
+  #forma {
+    grid-area: 1 / 1 / 2 / 1;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .prikazrec {
+    grid-area: 2 / 1 / 3 / 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}

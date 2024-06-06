@@ -1,0 +1,13 @@
+/* fonts */
+
+@font-face {
+  font-family: Monofil;
+  src: url("../fonts/monofil/MonofilDemoRegular.ttf");
+}
+
+/* code */
+.NarancaPg {
+  width: 100%;
+  height: 100%
+}
+
