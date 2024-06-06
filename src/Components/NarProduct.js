@@ -9,7 +9,7 @@ function NarProduct() {
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
-    console.log("Reviews updated:", reviews);
+    console.log("Ažurirane recenzije:", reviews);
   }, [reviews]);
 
   const handleSubmit = () => {
