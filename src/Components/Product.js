@@ -28,7 +28,7 @@ function Product() {
   return (
     <div className="Products" id="proizvodi">
       <div className="CedevitaaProducts">
-        <a href="./NarancaPg.js" class="okusi">
+        <a href="/NarancaPg" class="okusi">
           <Naranca NarancaProizvod={NarancaObj}></Naranca>
         </a>
         <a href="#" class="okusi">
