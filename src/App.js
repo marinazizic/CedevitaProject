@@ -7,13 +7,13 @@ import Footer from "./Components/Footer";
 import NarancaPg from "./Components/NarancaPg";
 import LimunPg from "./Components/LimunPg";
 import BazgaPg from "./Components/BazgaPg";
-import LoginContextProvider from "./Context/SugarContext";
+import SugarContextProvider from "./Context/SugarContext";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <LoginContextProvider>
+        <SugarContextProvider>
           <Router>
             <Header />
             <Routes>
@@ -24,7 +24,7 @@ function App() {
             </Routes>
             <Footer />
           </Router>
-        </LoginContextProvider>
+        </SugarContextProvider>
       </div>
     </div>
   );
